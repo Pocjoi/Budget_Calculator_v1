@@ -123,11 +123,12 @@ tbody tr:nth-child(odd) {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 6em;
+    width: 20em;
     object-fit: fill;
     position: sticky;
     top: 0%;
     position: fixed;
     right: 0;
-    margin-right: 20em;
+    margin-right: 10em;
+    background-color: red;
 }
