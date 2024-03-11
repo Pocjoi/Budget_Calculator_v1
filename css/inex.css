@@ -1,0 +1,133 @@
+* {
+    cursor: crosshair;
+}
+
+.title {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border-radius: 1em;
+}
+
+.table1 {
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 1em;
+    padding: 2em;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.side {
+    background-color: darkgray;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.input2 {
+    background-color: lightyellow;
+}
+
+.occupationsBtn {
+    background-color: darkgray;
+    border-radius: 0.5em;
+    width: 50%;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5em;
+}
+
+.nextBtn {
+    align-self: flex-start;
+    background-color: lightgray;
+    justify-content: center;
+    display: flex;
+    margin: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+    width: 4em;
+    height: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.title1 {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: x-large;
+    border-radius: 1em;
+}
+
+.start {
+    display: flex;
+    flex-flow: row;
+}
+
+.table2 {
+    width: fit-content;
+    background-color: #d3d3d3;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTwo {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.tableHolder {
+    display: flex;
+    justify-content: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #dfdfdf;
+}
+
+.table2 {
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#pieChart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 6em;
+    object-fit: fill;
+    position: sticky;
+    top: 0%;
+    position: fixed;
+    right: 0;
+    margin-right: 20em;
+}

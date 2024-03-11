@@ -1,0 +1,9 @@
+*{
+    cursor:crosshair;
+}
+
+.table2 {
+    padding: 1em;
+    font-size:large;
+    border-radius: 2em;
+}
